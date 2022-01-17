@@ -20,7 +20,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Main.Name = "Main"
 Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Main.Position = UDim2.new(0.755770683, 0, 0.609665453, 0)
+Main.Position = UDim2.new(0.750455558, 0, 0.292441189, 0)
 Main.Size = UDim2.new(0, 328, 0, 315)
 
 DivineColosseum.Name = "Divine Colosseum"
@@ -55,6 +55,7 @@ LuckyKingdom.TextWrapped = true
 LuckyKingdom.MouseButton1Click:connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-167.670563, -180.588104, -4078.91113, -0.999626517, 3.3967094e-08, 0.0273274239, 3.4046721e-08, 1, 2.44855425e-09, -0.0273274239, 3.37804895e-09, -0.999626517)
 end)
+
 CursedHigh.Name = "Cursed High"
 CursedHigh.Parent = Main
 CursedHigh.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
