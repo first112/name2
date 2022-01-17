@@ -1,0 +1,120 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local DivineColosseum = Instance.new("TextButton")
+local LuckyKingdom = Instance.new("TextButton")
+local CursedHigh = Instance.new("TextButton")
+local CrazyTown = Instance.new("TextButton")
+local WalledCity = Instance.new("TextButton")
+local TimeTrial = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.Position = UDim2.new(0.755770683, 0, 0.609665453, 0)
+Main.Size = UDim2.new(0, 328, 0, 315)
+
+DivineColosseum.Name = "Divine Colosseum"
+DivineColosseum.Parent = Main
+DivineColosseum.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+DivineColosseum.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DivineColosseum.Position = UDim2.new(0.195121944, 0, 0, 0)
+DivineColosseum.Size = UDim2.new(0, 199, 0, 29)
+DivineColosseum.Font = Enum.Font.SourceSans
+DivineColosseum.Text = "Divine Colosseum"
+DivineColosseum.TextColor3 = Color3.fromRGB(0, 0, 0)
+DivineColosseum.TextScaled = true
+DivineColosseum.TextSize = 14.000
+DivineColosseum.TextWrapped = true
+DivineColosseum.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2045.54004, -181.036804, 5611.28809, -0.853488207, 5.5546594e-09, 0.521112204, -2.56186503e-08, 1, -5.26179846e-08, -0.521112204, -5.82590189e-08, -0.853488207)
+
+end)
+
+LuckyKingdom.Name = "Lucky Kingdom"
+LuckyKingdom.Parent = Main
+LuckyKingdom.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+LuckyKingdom.BorderColor3 = Color3.fromRGB(255, 255, 255)
+LuckyKingdom.Position = UDim2.new(0.195121944, 0, 0.144227996, 0)
+LuckyKingdom.Size = UDim2.new(0, 199, 0, 29)
+LuckyKingdom.Font = Enum.Font.SourceSans
+LuckyKingdom.Text = "Lucky Kingdom"
+LuckyKingdom.TextColor3 = Color3.fromRGB(0, 0, 0)
+LuckyKingdom.TextScaled = true
+LuckyKingdom.TextSize = 14.000
+LuckyKingdom.TextWrapped = true
+LuckyKingdom.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-167.670563, -180.588104, -4078.91113, -0.999626517, 3.3967094e-08, 0.0273274239, 3.4046721e-08, 1, 2.44855425e-09, -0.0273274239, 3.37804895e-09, -0.999626517)
+end)
+CursedHigh.Name = "Cursed High"
+CursedHigh.Parent = Main
+CursedHigh.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+CursedHigh.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CursedHigh.Position = UDim2.new(0.195121944, 0, 0.290963203, 0)
+CursedHigh.Size = UDim2.new(0, 199, 0, 29)
+CursedHigh.Font = Enum.Font.SourceSans
+CursedHigh.Text = "Cursed High"
+CursedHigh.TextColor3 = Color3.fromRGB(0, 0, 0)
+CursedHigh.TextScaled = true
+CursedHigh.TextSize = 14.000
+CursedHigh.TextWrapped = true
+CursedHigh.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1907.68188, -180.71019, -2379.4812, -0.224488899, 4.92065544e-09, -0.974476635, -6.62574564e-08, 1, 2.03131805e-08, 0.974476635, 6.9126429e-08, -0.224488899)
+end)
+
+CrazyTown.Name = "Crazy Town"
+CrazyTown.Parent = Main
+CrazyTown.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+CrazyTown.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CrazyTown.Position = UDim2.new(0.195121944, 0, 0.452867985, 0)
+CrazyTown.Size = UDim2.new(0, 199, 0, 29)
+CrazyTown.Font = Enum.Font.SourceSans
+CrazyTown.Text = "Crazy Town"
+CrazyTown.TextColor3 = Color3.fromRGB(0, 0, 0)
+CrazyTown.TextScaled = true
+CrazyTown.TextSize = 14.000
+CrazyTown.TextWrapped = true
+CrazyTown.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-754.957031, -179.754227, 633.607178, -0.752405465, -5.27749258e-08, 0.658700287, 8.71473205e-09, 1, 9.00742592e-08, -0.658700287, 7.35127585e-08, -0.752405465)
+end)
+
+WalledCity.Name = "Walled City"
+WalledCity.Parent = Main
+WalledCity.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+WalledCity.BorderColor3 = Color3.fromRGB(255, 255, 255)
+WalledCity.Position = UDim2.new(0.195121944, 0, 0.611598134, 0)
+WalledCity.Size = UDim2.new(0, 199, 0, 29)
+WalledCity.Font = Enum.Font.SourceSans
+WalledCity.Text = "Walled City"
+WalledCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+WalledCity.TextScaled = true
+WalledCity.TextSize = 14.000
+WalledCity.TextWrapped = true
+WalledCity.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(72.0803604, -181.013977, -2314.1731, -0.0714129657, 3.93857462e-08, -0.997446835, -2.70110831e-08, 1, 4.14204422e-08, 0.997446835, 2.99000753e-08, -0.0714129657)
+end)
+
+TimeTrial.Name = "Time Trial"
+TimeTrial.Parent = Main
+TimeTrial.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+TimeTrial.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TimeTrial.Position = UDim2.new(0.195121944, 0, 0.906836271, 0)
+TimeTrial.Size = UDim2.new(0, 199, 0, 29)
+TimeTrial.Font = Enum.Font.SourceSans
+TimeTrial.Text = "Time Trial"
+TimeTrial.TextColor3 = Color3.fromRGB(0, 0, 0)
+TimeTrial.TextScaled = true
+TimeTrial.TextSize = 14.000
+TimeTrial.TextWrapped = true
+TimeTrial.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3805.13013, -186.404037, 937.727478, -0.999956012, 1.92318925e-08, -0.00937865861, 1.84151219e-08, 1, 8.7174719e-08, 0.00937865861, 8.69981776e-08, -0.999956012)
+end)
